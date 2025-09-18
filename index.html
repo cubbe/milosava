@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advokat Milosava Pušara - Pravne usluge u Beogradu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://static.photos/legal/1200x630/1');
+            background-size: cover;
+            background-position: center;
+        }
+        .practice-area:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .map-container {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div class="flex items-center py-4 px-2">
+                        <span class="font-semibold text-gray-800 text-lg">Advokat Milošava Pušara</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="#usluge" class="py-4 px-2 text-gray-700 hover:text-blue-600 transition duration-300">Usluge</a>
+                    <a href="#o-nama" class="py-4 px-2 text-gray-700 hover:text-blue-600 transition duration-300">O nama</a>
+                    <a href="#kontakt" class="py-4 px-2 text-gray-700 hover:text-blue-600 transition duration-300">Kontakt</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <i data-feather="menu" class="w-6 h-6 text-gray-700"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hidden mobile-menu">
+            <ul>
+                <li><a href="#usluge" class="block px-2 py-4 text-sm hover:bg-gray-200 transition duration-300">Usluge</a></li>
+                <li><a href="#o-nama" class="block px-2 py-4 text-sm hover:bg-gray-200 transition duration-300">O nama</a></li>
+                <li><a href="#kontakt" class="block px-2 py-4 text-sm hover:bg-gray-200 transition duration-300">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-20">
+        <div class="max-w-6xl mx-auto px-4 text-center" data-aos="fade-up">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Profesionalne pravne usluge</h1>
+            <p class="text-xl md:text-2xl mb-8">Advokat Milošava Pušara pruža kvalitetne pravne usluge u Beogradu</p>
+            <a href="#kontakt" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-flex items-center">
+                <i data-feather="phone" class="mr-2"></i> Zakažite konsultacije
+            </a>
+        </div>
+    </section>
+
+    <!-- Practice Areas -->
+    <section id="usluge" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Naše usluge</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Prekršaji -->
+                <div class="practice-area bg-gray-50 p-6 rounded-lg shadow-md transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-blue-600 mb-4">
+                        <i data-feather="alert-circle" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Prekršaji</h3>
+                    <p class="text-gray-600">Pravna zastupanja u prekršajnim postupcima, žalbe na prekršajne naloge i zaštita prava klijenata.</p>
+                </div>
+
+                <!-- Nekretnine -->
+                <div class="practice-area bg-gray-50 p-6 rounded-lg shadow-md transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-blue-600 mb-4">
+                        <i data-feather="home" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Nekretnine</h3>
+                    <p class="text-gray-600">Pravni saveti i zastupanje u kupoprodaji, iznajmljivanju i drugim poslovima sa nekretninama.</p>
+                </div>
+
+                <!-- Radni odnosi -->
+                <div class="practice-area bg-gray-50 p-6 rounded-lg shadow-md transition duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-blue-600 mb-4">
+                        <i data-feather="briefcase" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Radni odnosi</h3>
+                    <p class="text-gray-600">Rešavanje sporova iz radnog odnosa, otkazi, diskriminacija i zaštita prava radnika i poslodavaca.</p>
+                </div>
+
+                <!-- Porodični odnosi -->
+                <div class="practice-area bg-gray-50 p-6 rounded-lg shadow-md transition duration-300" data-aos="fade-up" data-aos-delay="400">
+                    <div class="text-blue-600 mb-4">
+                        <i data-feather="users" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Porodični odnosi</h3>
+                    <p class="text-gray-600">Razvodi, starateljstvo, alimentacija i drugi porodičnopravni sporovi.</p>
+                </div>
+
+                <!-- Nasleđivanje -->
+                <div class="practice-area bg-gray-50 p-6 rounded-lg shadow-md transition duration-300" data-aos="fade-up" data-aos-delay="500">
+                    <div class="text-blue-600 mb-4">
+                        <i data-feather="file-text" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Nasleđivanje</h3>
+                    <p class="text-gray-600">Testamenti, ostavinske rasprave i rešavanje naslednih sporova.</p>
+                </div>
+
+                <!-- Vozila -->
+                <div class="practice-area bg-gray-50 p-6 rounded-lg shadow-md transition duration-300" data-aos="fade-up" data-aos-delay="600">
+                    <div class="text-blue-600 mb-4">
+                        <i data-feather="truck" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Registracija vozila</h3>
+                    <p class="text-gray-600">Pravna pomoć pri registraciji motornih vozila i rešavanju administrativnih pitanja.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="o-nama" class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8" data-aos="fade-right">
+                    <img src="http://static.photos/legal/640x360/15" alt="Advokatska kancelarija" class="rounded-lg shadow-lg w-full">
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <h2 class="text-3xl font-bold mb-6">O advokatu Milošavi Pušara</h2>
+                    <p class="text-gray-700 mb-4">Advokat Milošava Pušara pruža profesionalne pravne usluge sa dugogodišnjim iskustvom u različitim oblastima prava.</p>
+                    <p class="text-gray-700 mb-4">Naš cilj je da pružimo personalizovane pravne rešenja koje najbolje odgovaraju potrebama naših klijenata.</p>
+                    <p class="text-gray-700 mb-6">Posvećeni smo pružanju visokokvalitetnih usluga uz poštovanje etičkih standarda advokatske profesije.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="flex items-center">
+                            <i data-feather="award" class="text-blue-600 mr-2"></i>
+                            <span>Profesionalizam</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="shield" class="text-blue-600 mr-2"></i>
+                            <span>Poverenje</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="clock" class="text-blue-600 mr-2"></i>
+                            <span>Posvećenost</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Building Images -->
+    <section class="py-12 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Naš rad</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/legal/640x360/2" alt="Pravna dokumenta" class="rounded-lg shadow-md w-full h-48 object-cover">
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/office/640x360/3" alt="Advokatska kancelarija" class="rounded-lg shadow-md w-full h-48 object-cover">
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300">
+                    <img src="http://static.photos/legal/640x360/4" alt="Pravni savet" class="rounded-lg shadow-md w-full h-48 object-cover">
+                </div>
+                <div data-aos="fade-up" data-aos-delay="400">
+                    <img src="http://static.photos/office/640x360/5" alt="Sastanak sa klijentom" class="rounded-lg shadow-md w-full h-48 object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontakt" class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Informacije</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8 flex flex-col items-center" data-aos="fade-right">
+                    <div class="bg-white p-6 rounded-lg shadow-md w-full mb-8">
+                        <h3 class="text-xl font-semibold mb-4 text-center">Radno vreme</h3>
+                        <div class="space-y-2">
+                            <div class="flex justify-between">
+                                <span>Ponedeljak - Petak:</span>
+                                <span class="font-medium">10:00 - 18:00</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Subota - Nedelja:</span>
+                                <span class="font-medium">Ne radimo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md w-full">
+                        <h3 class="text-xl font-semibold mb-4 text-center">Kontakt</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <i data-feather="map-pin" class="text-blue-600 mr-3"></i>
+                                <div>
+                                    <span>Kapetana Miloša Žunjića 25s, Beograd 11160</span>
+                                    <div class="mt-1">
+                                        <a href="mailto:info@advokatpusara.rs?subject=Zahtev za adresu&body=Poštovani,%0D%0A%0D%0AMolim Vas da mi pošaljete adresu Vaše kancelarije.%0D%0A%0D%0AHvala!" 
+                                           class="text-sm bg-blue-100 text-blue-600 px-2 py-1 rounded hover:bg-blue-200">
+                                            Pošalji email za adresu
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-feather="phone" class="text-blue-600 mr-3"></i>
+                                <div>
+                                    <span>064 3405655</span>
+                                    <div class="mt-1">
+                                        <a href="mailto:info@advokatpusara.rs?subject=Upit&body=Poštovani,%0D%0A%0D%0AMolim Vas da me kontaktirate u vezi sa sledećim:%0D%0A%0D%0AHvala!" 
+                                           class="text-sm bg-blue-100 text-blue-600 px-2 py-1 rounded hover:bg-blue-200">
+                                            Pošalji email upit
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-feather="mail" class="text-blue-600 mr-3"></i>
+                                <span>info@advokatpusara.rs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <div class="map-container rounded-lg shadow-lg overflow-hidden">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.715105382693!2d20.4823153155362!3d44.8066229790987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7ab1b5a6b5a5%3A0x9e8a7b8b9b9b9b9b!2sKapetana%20Milo%C5%A1a%20%C5%BDunji%C4%87a%2025s%2C%20Beograd%2011160!5e0!3m2!1sen!2srs!4v1620000000000!5m2!1sen!2srs" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-semibold">Advokat Milošava Pušara</h3>
+                    <p class="text-gray-400">Profesionalne pravne usluge u Beogradu</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i data-feather="facebook"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i data-feather="instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
+                <p>&copy; 2023 Advokat Milošava Pušara. Sva prava zadržana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+        feather.replace();
+        
+        // Mobile menu toggle
+        const btn = document.querySelector(".mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+    </script>
+</body>
+</html>
